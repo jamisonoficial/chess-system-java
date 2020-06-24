@@ -14,6 +14,7 @@ public class ChessMatch {
 		initialSetup();
 	}
 	
+	//Mètodo usado para impressão das peças na tela
 	public ChessPiece[][] getPiece(){
 		ChessPiece[][] mat = new ChessPiece[board.getRows()][board.getColumns()];
 		
